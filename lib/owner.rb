@@ -60,8 +60,9 @@ class Owner
   end
   
   def sell_pets
-    @pets.each do |species, name|
-      name.each do 
+    @pets.each do |species, pets|
+      pets.each do |name|
+        
     
   
 # describe "#sell_pets" do
