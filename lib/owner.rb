@@ -64,7 +64,8 @@ class Owner
       pets.each do |name|
         name.mood = "nervous"
       end
-    
+    name.clear
+  end
     
   
 # describe "#sell_pets" do
